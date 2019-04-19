@@ -11,5 +11,5 @@ def create_user_random(cantidad):
         email = '{}@miepresa.com'.format(username)
         password = get_random_string(50)
         User.objects.create_user(username=username, email=email, password=password)
-    return '{} Usuarios creados correctamente..!'.format(x)
+    return '{} Usuarios creados correctamente!'.format(x)
 
